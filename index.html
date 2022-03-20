@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <!-- Moralis SDK code -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+</head>
+
+<body>
+  <h1>List Users</h1>
+  <p id="myAddress"></p>
+  <button id="btn-login">Moralis Login</button>
+  <button id="btn-logout">Logout</button>
+
+  <h3>Content</h3>
+  <button id="btn-get">GetUser</button>
+  <button id="btn-download">DownloadCSV</button>
+  <div id="content"></div>
+
+  <script type="text/javascript" src="./main.js"> </script>
+</body>
+
+</html>
